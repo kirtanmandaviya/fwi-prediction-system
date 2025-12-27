@@ -7,7 +7,7 @@ The model is built using **Ridge Regression** and deployed using **Flask**.
 
 ## Live Demo
 
- (http://testforestfire-env.eba-ftutjkt6.ap-south-1.elasticbeanstalk.com/)
+ http://testforestfire-env.eba-ftutjkt6.ap-south-1.elasticbeanstalk.com/
 
 ---
 
