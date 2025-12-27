@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Prediction System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 14px;
+            max-width: 520px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        }
+
+        h1 {
+            color: #203a43;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #203a43;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #162b32;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Forest Fire Weather Index Prediction</h1>
+
+    <p>
+        This application predicts the <strong>Forest Fire Weather Index (FWI)</strong>
+        using meteorological parameters such as temperature, humidity, wind speed,
+        rainfall, and fire danger indices.  
+        The model is built using <strong>Ridge Regression</strong> and deployed using <strong>Flask</strong>.
+    </p>
+
+    <a href="{{ url_for('predict_datapoint') }}" class="btn">
+        Go to Prediction Page
+    </a>
+
+    <div class="footer">
+        ML Project • AWS / Flask Deployment
+    </div>
+</div>
+
+</body>
+</html>
