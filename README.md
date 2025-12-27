@@ -6,7 +6,8 @@ The model is built using **Ridge Regression** and deployed using **Flask**.
 ---
 
 ## Live Demo
- (Add your AWS EC2 public URL here after deployment)
+
+ (http://testforestfire-env.eba-ftutjkt6.ap-south-1.elasticbeanstalk.com/)
 
 ---
 
