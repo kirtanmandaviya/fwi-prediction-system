@@ -1,4 +1,4 @@
-# Forest Fire Weather Index (FWI) Prediction System 🔥
+# Forest Fire Weather Index (FWI) Prediction System 
 
 An end-to-end Machine Learning web application that predicts the **Forest Fire Weather Index (FWI)** using meteorological parameters.  
 The model is built using **Ridge Regression** and deployed using **Flask**.
@@ -6,7 +6,7 @@ The model is built using **Ridge Regression** and deployed using **Flask**.
 ---
 
 ## Live Demo
-🔗 (Add your AWS EC2 public URL here after deployment)
+ (Add your AWS EC2 public URL here after deployment)
 
 ---
 
